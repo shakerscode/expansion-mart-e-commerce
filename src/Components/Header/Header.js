@@ -37,7 +37,8 @@ const Header = () => {
         {aL: 'Profile'}
     ]
 
-     
+
+    
     const handleCat = (list) => {
         setShow(false);
         setShowUser(false);
