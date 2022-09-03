@@ -1,8 +1,11 @@
+import { Footer, Header, Home } from "./Components/exporter";
 
 function App() {
   return (
     <div className="">
-      <h1>Ecommerce</h1>
+      <Header/>
+      <Home/>
+      <Footer/>
     </div>
   );
 }
