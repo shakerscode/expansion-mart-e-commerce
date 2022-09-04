@@ -1,10 +1,11 @@
 import React from 'react';
+import { NewsLetter } from '../exporter';
 
 const Home = () => {
     return (
-        <div>
-            Hello from home
-        </div>
+        <main className='px-14'>
+            <NewsLetter/>
+        </main>
     );
 };
 
