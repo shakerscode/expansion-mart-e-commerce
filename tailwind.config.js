@@ -3,6 +3,22 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx, html}",
   ],
+  module: {
+    rules: [
+      //...
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[hash]-[name].[ext]',
+            },
+          },
+        ],
+      },
+    ],
+  },  
   theme: {
     colors: {
       primary: '#14b8a6',
