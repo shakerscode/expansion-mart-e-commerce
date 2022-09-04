@@ -94,20 +94,20 @@ const Header = () => {
                 </div>
 
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:px-14 px-3 py-2 my-2 md:my-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:px-14 px-3 py-4 my-2 md:my-0'>
                 <button
                     onClick={() => setShow(!show)} 
                      className='flex justify-center items-center gap-4  md:text-xl font-semibold bg-primary md:w-52 w-full rounded-lg text-white px-4 py-2 hover:bg-secondary transition-all ease-in-out duration-300 relative'>{ show ? <IoMdArrowDropup className='md:block hidden text-2xl' /> : <IoMdArrowDropdown className='md:block hidden text-2xl' />} All Categories</button>
-                <ul className={`flex flex-col bg-white w-full md:w-auto shadow-lg md:shadow-none py-4 gap-3 z-20 md:z-auto md:flex-row md:justify-end items-center md:gap-8 absolute md:static transition-all duration-500 ease-in-out  left-0   ${open ? 'top-24 opacity-100' : 'top-[-250px] left-0 opacity-0 md-opacity-100'}`}>
+                <ul className={`flex flex-col md:flex-row md:justify-end items-center md:gap-10 bg-white md:bg-none w-full md:w-auto shadow-lg md:shadow-none py-4 gap-3 z-20 md:z-auto absolute md:static transition-all duration-500 ease-in-out ${open ? 'top-24 opacity-100' : 'top-[-250px] left-0 opacity-0 md:opacity-100'}`}>
                     {
                         menus.map((menu, i) =>
                             <li
                                 key={i}
                                 // onClick={() => navigate(`${menu.link}`)}
-                                className='text-lg cursor-pointer hover:text-secondary transition-all ease-in duration-150'>{menu?.m}</li>)
+                                className='text-lg cursor-pointer hover:text-secondary transition-all ease-in duration-150 text-[20px]'>{menu?.m}</li>)
                     }
                 </ul>
-            </div> 
+            </div>  
             {
                 show &&
                 <div className='bg-white shadow-lg py-3 w-60 h-fit-content px-2 absolute left-14 top-38 md:top-48 rounded-lg transition-transform ease-in duration-500 z-10'>
