@@ -54,8 +54,8 @@ const Footer = () => {
 
 
     return (
-        <footer className='bg-light h-fit-content px-14'>
-            <div className='grid grid-cols-2 gap-5 mx-auto py-8 border-b border-dashed border-gray'>
+        <footer className='bg-light h-fit-content md:px-14 px-3'>
+            <div className='grid md:grid-cols-2 gap-5 mx-auto py-8 border-b border-dashed border-gray'>
                 {
                     itemsInFooter?.map((I, i) =>
                         <div
@@ -68,7 +68,7 @@ const Footer = () => {
                 }
 
             </div>
-            <div className='grid grid-cols-5 border-b border-dashed border-gray py-10'>
+            <div className='grid grid-cols-1 md:grid-cols-5 gap-3 border-b border-dashed border-gray py-10'>
                 <div>
                     <h1 className='md:text-4xl text-2xl font-bold text-primary'>Expansion<span className='text-secondary'>Mart</span></h1>
                     <p className='py-5'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form.</p>
@@ -83,9 +83,9 @@ const Footer = () => {
                 </div>
                 {
                     linksInFooter?.map((lF, i) =>
-                        <div key={i} className='w-90% mx-auto'>
+                        <div key={i} className=' md:mx-auto  '>
                             <h2 className='text-xl font-semibold'>{lF.tittle}</h2>
-                            <ul className='flex flex-col gap-2 mt-2'>
+                            <ul className='flex flex-col  gap-2 mt-2'>
                                 {
                                     lF.links.map((link, i) => <li className='hover:text-primary hover:border-b-primary transition-all duration-500 ease-in-out ' key={i}><a href="/">{link}</a></li>)
                                 }
@@ -114,9 +114,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='py-8 flex justify-between items-center'>
+            <div className='py-8 flex md:flex-row flex-col-reverse gap-3 justify-between items-center'>
                 <div>
-                    <p> &copy;{new Date().getFullYear()} <span className='font-semibold text-primary'>Expansion<span className='text-secondary'>Mart</span></span> All rights reserved</p>
+                    <p> &copy;{new Date().getFullYear()} <span className='font-semibold text-primary text-sm'>Expansion<span className='text-secondary'>Mart</span></span> All rights reserved</p>
                 </div>
                 <div className='flex gap-5 text-2xl'>
                     <BsPaypal className='hover:text-secondary cursor-pointer' />

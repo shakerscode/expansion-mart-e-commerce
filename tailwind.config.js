@@ -1,23 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx, html}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   module: {
-    rules: [
-      //...
-      {
-        test: /\.(png|jp(e*)g|svg|gif)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: 'images/[hash]-[name].[ext]',
-            },
-          },
-        ],
-      },
-    ],
+     
   },  
   theme: {
     colors: {

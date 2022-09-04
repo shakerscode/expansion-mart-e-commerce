@@ -65,7 +65,7 @@ const Header = () => {
                     <input
                         type="search"
                         placeholder='Search products...'
-                        className='focus:outline-none border border-gray w-96 px-3 rounded-l-full' />
+                        className='focus:outline-none border border-r-0 border-gray w-96 px-3 rounded-l-full' />
                     <button><BsSearch className='bg-secondary text-white w-14 h-14 p-4 rounded-r-full text-xl' /></button>
                 </div>
                 <div className='flex items-center gap-5 text-2xl text-center '>
