@@ -3,7 +3,7 @@ import { NewsLetter, Hero } from '../exporter';
 
 const Home = () => {
     return (
-        <main className='px-14'>
+        <main className='md:px-14 px-4'>
             <Hero/>
             <NewsLetter/>
         </main>
