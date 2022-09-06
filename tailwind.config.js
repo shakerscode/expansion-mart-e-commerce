@@ -14,7 +14,8 @@ module.exports = {
       black: '#222222',
       gray: '#8B929E',
       white: '#ffffff',
-      light: '#f1f5f9'
+      light: '#f1f5f9',
+      bgLight: 'rgba(174, 173, 173, 0.763)'
     },
     extend: {},
   },

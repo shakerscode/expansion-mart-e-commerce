@@ -33,10 +33,10 @@ const Slider = () => {
         {
             slider?.map((slide, i) => <SwiperSlide key={i} >
                 <img src={slide?.image} alt=""  className="rounded-lg "/>
-                <div className="absolute md:bottom-16 bottom-6 pl-5 py-2 min-h-fit md:w-auto w-[90%] md:py-5 md:px-7 rounded-l-full right-0  bg-light text-start">
+                <div className="absolute md:bottom-16 bottom-6 pl-7 py-2 min-h-fit md:w-auto w-[90%] md:py-5 md:px-7 rounded-l-full right-0  bg-bgLight text-start">
                     <p className="bg-secondary md:w-20 w-12 text-sm px-2  rounded-full text-center text-white md:text-2xl md:px-2 font-semibold">{slide?.offer}</p>
-                    <h2 className="md:text-3xl text-mb md:py-1 uppercase font-bold text-primary">{slide?.tittle}</h2>
-                    <p className="md:text-md text-sm md:pl-3 ">{slide?.subTittle}</p>
+                    <h2 className="md:text-3xl text-mb md:py-1 uppercase font-bold text-white">{slide?.tittle}</h2>
+                    <p className="md:text-md text-sm md:pl-3 text-light">{slide?.subTittle}</p>
                 </div>
                 </SwiperSlide> )
         } 

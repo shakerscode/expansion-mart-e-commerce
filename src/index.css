@@ -78,3 +78,38 @@ body {
   height: 100%;
   object-fit: cover;
 } 
+
+/* background img */
+.bg-image-one{
+  background-color: rgb(240, 236, 236);
+  background-image: url('./assets//Side-Hero//side-hero-1.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  height: 220px;
+}
+.bg-image-two{
+  background-color: rgb(240, 236, 236);
+  background-image: url('./assets//Side-Hero//side-hero-2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  height: 220px;
+}
+.bg-image-three{
+   background-color: rgb(240, 236, 236);
+  background-image: url('./assets//Side-Hero//side-hero-2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  height: 220px;
+}
+
+@media screen and (max-width: 650px) {
+
+  .bg-image-one {
+    height: 190px;
+    padding: 0 10px;
+  }
+  
+}
