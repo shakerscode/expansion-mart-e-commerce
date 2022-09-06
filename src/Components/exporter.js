@@ -4,3 +4,5 @@ export {default as Footer} from './Footer/Footer';
 export {default as NewsLetter} from './Home/HomeComponents/NewsLetter';
 export {default as Hero} from './Home/HomeComponents/Hero';
 export {default as  Slider} from './Re-UseableComp/Slider';
+export {default as  Categories} from './Home/HomeComponents/Categories';
+export {default as  FlashSell} from './Home/HomeComponents/FlashSell';
