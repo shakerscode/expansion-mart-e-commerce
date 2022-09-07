@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <main className='md:px-14 px-4'>
             <Hero/>
-            <Categories/>
             <FlashSell/>
+            <Categories/>
             <NewsLetter/>
         </main>
     );

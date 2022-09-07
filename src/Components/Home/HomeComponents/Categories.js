@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiHeadphones, FiArrowRight } from 'react-icons/fi';
+import SwiperSlider from './SwiperSlider';
 
 const Categories = () => {
     const categories = [
@@ -26,7 +27,8 @@ const Categories = () => {
                 <h3 className='text-primary md:text-3xl text-xl font-bold py-3'>Top Categories</h3>
                 <span className='flex items-center gap-2 md:text-md text-secondary font-semibold cursor-pointer'>See All <FiArrowRight /> </span>
             </div>
-            <div className='grid grid-cols-6 gap-2 cursor-pointer  p-3 rounded-lg shadow-md bg-light'>
+            <SwiperSlider categories={categories}/>
+            {/* <div className='grid grid-cols-6 gap-2 cursor-pointer  p-3 rounded-lg shadow-md bg-light'>
                 {
                     categories?.map((cat, i) =>
                         <div 
@@ -39,7 +41,7 @@ const Categories = () => {
                     )
                 }
 
-            </div>
+            </div> */}
         </div>
     );
 };
