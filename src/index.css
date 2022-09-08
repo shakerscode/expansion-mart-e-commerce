@@ -49,10 +49,11 @@ body {
   align-items: center; */
 /* } */
 
-  
+ 
 
 /* background img */
 .bg-image-one{
+  /* background: rgba(41, 40, 40, 0.445); */
   background-color: rgb(240, 236, 236);
   background-image: url('./assets//Side-Hero//side-hero-1.png');
   background-repeat: no-repeat;
