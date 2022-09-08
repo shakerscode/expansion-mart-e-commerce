@@ -2,9 +2,7 @@ import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
 import Timer from './Timer';
 
-const FlashSell = () => {
-    const time = new Date();
-    time.setSeconds(time.getSeconds() + 3600*24);
+const FlashSell = () => { 
 
     const categories = [
         { catTittle: 'categories', catIcon: 'FiHeadphones' },
@@ -27,7 +25,7 @@ const FlashSell = () => {
                 <div className='flex justify-center items-center gap-5'>
                     <p className='text-secondary font-semibold text-lg'>On Sale Now</p>
                     <p className='text-primary'>Ending in</p> 
-                    <Timer expiryTimestamp={time}/>
+                    <Timer />
                 </div>
                 <span className='flex items-center gap-2 md:text-md text-secondary font-semibold cursor-pointer'>See All <FiArrowRight /> </span>
             </div>
