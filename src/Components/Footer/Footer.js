@@ -87,7 +87,7 @@ const Footer = () => {
                             <h2 className='text-xl font-semibold'>{lF.tittle}</h2>
                             <ul className='flex flex-col  gap-2 mt-2'>
                                 {
-                                    lF.links.map((link, i) => <li className='hover:text-primary hover:border-b-primary transition-all duration-500 ease-in-out ' key={i}><a href="/">{link}</a></li>)
+                                    lF.links.map((link, i) => <li className='hover:text-primary text-sm md:text-md hover:border-b-primary transition-all duration-500 ease-in-out ' key={i}><a href="/">{link}</a></li>)
                                 }
                             </ul>
                         </div>

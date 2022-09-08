@@ -15,7 +15,8 @@ module.exports = {
       gray: '#8B929E',
       white: '#ffffff',
       light: '#f1f5f9',
-      bgLight: 'rgba(174, 173, 173, 0.763)'
+      bgLight: 'rgba(174, 173, 173, 0.763)',
+      bgLightBlack: 'rgba(41, 40, 40, 0.445)',
     },
     extend: {},
   },

@@ -15,19 +15,19 @@ const SwiperSlider = ({categories}) => {
     return (
         <>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={2}
           spaceBetween={10}
           freeMode={true}
           pagination={{
             clickable: true,
           }}
           modules={[FreeMode, ]}
-          className="md:hidden"
+          className="md:hidden block"
         >
            {
-            categories?.map((cat, i) => <SwiperSlide key={i} className='py-5 px-5 gap-4 rounded-lg bg-light shadow cursor-pointer'>
-                <cat.catIcon className='text-3xl'/>
-                <h1 className="text-xl">{cat.catTittle}</h1>
+            categories?.map((cat, i) => <SwiperSlide key={i} className=' p-4 flex flex-col items-center gap-2 rounded-lg bg-light shadow cursor-pointer'>
+                <img src={cat?.image} alt="" className="w-8 h-8"/>
+                <h1 className="text-md">{cat.catTittle}</h1>
             </SwiperSlide>)
            }
           

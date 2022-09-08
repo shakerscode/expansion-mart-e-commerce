@@ -1,5 +1,5 @@
 import React from 'react';
-import { NewsLetter, Hero, Categories, FlashSell } from '../exporter';
+import { NewsLetter, Hero, Categories, FlashSell, UserProducts } from '../exporter';
 
 const Home = () => {
     return (
@@ -7,6 +7,7 @@ const Home = () => {
             <Hero/>
             <FlashSell/>
             <Categories/>
+            <UserProducts/>
             <NewsLetter/>
         </main>
     );
