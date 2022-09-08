@@ -22,7 +22,7 @@ const SwiperSlider = ({categories}) => {
             clickable: true,
           }}
           modules={[FreeMode, ]}
-          className=""
+          className="md:hidden"
         >
            {
             categories?.map((cat, i) => <SwiperSlide key={i} className='py-5 px-5 gap-4 rounded-lg bg-light shadow cursor-pointer'>

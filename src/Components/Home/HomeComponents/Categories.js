@@ -28,7 +28,7 @@ const Categories = () => {
                 <span className='flex items-center gap-2 md:text-md text-secondary font-semibold cursor-pointer'>See All <FiArrowRight /> </span>
             </div>
             <SwiperSlider categories={categories}/>
-            {/* <div className='grid grid-cols-6 gap-2 cursor-pointer  p-3 rounded-lg shadow-md bg-light'>
+            <div className='md:grid hidden grid-cols-6 gap-2 cursor-pointer  p-3 rounded-lg shadow-md bg-light'>
                 {
                     categories?.map((cat, i) =>
                         <div 
@@ -41,7 +41,7 @@ const Categories = () => {
                     )
                 }
 
-            </div> */}
+            </div>
         </div>
     );
 };
