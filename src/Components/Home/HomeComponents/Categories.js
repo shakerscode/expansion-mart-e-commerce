@@ -35,7 +35,7 @@ const Categories = () => {
                     categories?.map((cat, i) =>
                         <div
                             key={i}
-                            onClick={() => handleCat(cat.catTittle)}
+                            onClick={() => handleCat(cat?.catTittle)}
                             className='p-4  flex flex-col items-center rounded-lg hover:bg-white hover:translate-x-1 transition-all duration-500 ease-in-out gap-4 shadow-md hover:shadow-xl  cursor-pointer'>
                            <img src={cat?.image} alt="" className='w-14' />
                             <h4 className='text-lg text-black'>{cat?.catTittle}</h4>

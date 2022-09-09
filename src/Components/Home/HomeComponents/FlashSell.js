@@ -17,7 +17,7 @@ const FlashSell = () => {
         { _id: 1, title: 'Redmi 10c - 4GB RAM / 64GB ROM - 5000mAh Battery', price: '14,388', perviousPrice: '14,999', off: '4%', review: 5, quantity:0, image: P1 } 
     ]
     return (
-        <div className='my-8 s'>
+        <div className='my-8'>
             <h3 className='text-primary md:text-3xl text-xl font-bold py-3 flex items-center gap-1'>Flash Sell <MdLocalFireDepartment className='text-secondary'/></h3>
             <div className='flex justify-between items-center bg-light p-3 rounded-lg'>
                 <div className='flex justify-center items-center gap-5'>

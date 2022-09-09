@@ -39,7 +39,7 @@ const UserProducts = () => {
     return (
         <div className='mt-5'>
             <div className='flex justify-between items-center bg-light p-3 rounded-lg'>
-            <h3 className='text-primary md:text-3xl text-xl font-bold py-3'>Spacial For You</h3>
+            <h3 className='text-primary md:text-3xl text-xl font-bold py-1'>Spacial For You</h3>
                  
                 <span className='flex items-center gap-2 md:text-lg text-sm text-secondary font-semibold cursor-pointer'>See All <FiArrowRight /> </span>
             </div>

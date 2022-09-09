@@ -7,6 +7,9 @@ export {default as  Slider} from './Re-UseableComp/Slider';
 export {default as  Categories} from './Home/HomeComponents/Categories';
 export {default as  FlashSell} from './Home/HomeComponents/FlashSell';
 export {default as  UserProducts} from './Home/HomeComponents/UserProducts';
+export {default as  Advertisement} from './Re-UseableComp/Advertisement';
+export {default as  Button} from './Re-UseableComp/Button';
+export {default as  Coupon} from './Re-UseableComp/Coupon';
 
 
 
@@ -19,3 +22,6 @@ export {default as Men} from '../assets/Categories/mens-clothing.png'
 export {default as Bottle} from '../assets/Categories/reusable-bottle.png'
 export {default as TV} from '../assets/Categories/smart-tv.png'
 export {default as Mobile} from '../assets/Categories/smartphone.png' 
+export {default as Meat} from '../assets/Ads/meat.png';
+export {default as Eggs} from '../assets/Ads/egg.png';
+export {default as Fruits} from '../assets/Ads/fruits.png';
