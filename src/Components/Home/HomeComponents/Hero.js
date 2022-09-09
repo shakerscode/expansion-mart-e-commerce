@@ -1,6 +1,5 @@
 import React  from 'react'; 
  import { Slider, Button } from '../../exporter';
- import { BsArrowRight } from 'react-icons/bs'
 
 
 const Hero = () => {

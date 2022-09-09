@@ -7,6 +7,8 @@ export {default as  Slider} from './Re-UseableComp/Slider';
 export {default as  Categories} from './Home/HomeComponents/Categories';
 export {default as  FlashSell} from './Home/HomeComponents/FlashSell';
 export {default as  UserProducts} from './Home/HomeComponents/UserProducts';
+export {default as  TopProducts} from './Home/HomeComponents/TopProducts';
+export {default as  Blogs} from './Home/HomeComponents/Blogs';
 export {default as  Advertisement} from './Re-UseableComp/Advertisement';
 export {default as  Button} from './Re-UseableComp/Button';
 export {default as  Coupon} from './Re-UseableComp/Coupon';

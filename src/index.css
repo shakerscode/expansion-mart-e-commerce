@@ -20,10 +20,10 @@ body {
 }
 
 /* Slider Css */
-.swiper {
+/* .swiper {
   width: 100%;
   height: 100%;
-}
+} */
 
 .swiper-img {
   display: block;
@@ -85,6 +85,9 @@ body {
   background-position: right;
   background-size: 180px;
   height: 150px;
+}
+.coupon{
+  background-color: rgba(4, 137, 117, 0.632);
 }
 
 @media screen and (max-width: 650px) {

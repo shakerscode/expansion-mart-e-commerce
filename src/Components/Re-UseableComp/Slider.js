@@ -29,7 +29,7 @@ const Slider = () => {
         }}
         autoplay={{delay: 2000}}
         modules={[Pagination, Autoplay]}
-        className="mySwiper relative rounded-lg "
+        className="h-full relative rounded-lg "
       >
         {
             slider?.map((slide, i) => <SwiperSlide key={i} >

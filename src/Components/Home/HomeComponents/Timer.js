@@ -4,8 +4,7 @@ const Timer = ( ) => {
   const {
     seconds,
     minutes,
-    hours, 
-    ampm
+    hours,  
   } = useTime({ format: '12-hour'}); 
   if(hours === '12:00am'){
       console.log('its time to leave');

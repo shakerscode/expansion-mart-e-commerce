@@ -4,7 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 const NewsLetter = () => {
     return (
-        <div className='h-[300px] w-full flex justify-center items-center md:mx-4 bg-secondary my-10 rounded-lg shadow-lg'>
+        <div className='h-[200px] w-full flex justify-center items-center md:mx-4 bg-secondary my-10 rounded-lg shadow-lg'>
             <div className='md:w-[70%]  h-52 flex flex-col justify-center items-center'>
                 <h4 className='md:text-3xl px-5 text-2xl font-bold text-white'>Join Our Newsletter And Get...</h4>
                 <p className='md:text-xl text-lg font-semibold text-black'>$20 discount for your first order</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NewsLetter, Hero, Categories, FlashSell, UserProducts, Eggs, Fruits, Meat, Advertisement, Coupon } from '../exporter';
+import { NewsLetter, Hero, Categories, FlashSell, UserProducts, Eggs, Fruits, Meat, Advertisement, Coupon , TopProducts, Blogs} from '../exporter';
  
 const Home = () => {
     const adsTop = [
@@ -19,6 +19,8 @@ const Home = () => {
             <Categories/>
             <UserProducts/>
             <Coupon/>
+            <TopProducts/>
+            <Blogs/>
             <NewsLetter/>
         </main>
     );

@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Advertisement = ({ items }) => {
     return (
-        <div className='ads-banner cursor-pointer flex justify-end items-end relative rounded-lg'>
+        <div className='ads-banner cursor-pointer flex justify-end items-end relative rounded-lg hover:opacity-75 transition-all duration-500 ease-in-out'>
             <div className='absolute top-5 left-0 px-2 py-1 bg-light rounded-r-full w-64 shadow-lg'>
                 <p className='text-secondary font-semibold'>{items?.off} OFF</p>
                 <h1 className='md:text-xl text-lg text-primary font-bold'>{items?.title}</h1>

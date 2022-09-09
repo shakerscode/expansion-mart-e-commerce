@@ -10,7 +10,7 @@ import "swiper/css/autoplay";
 
 
 // import required modules
-import { FreeMode, Pagination, Autoplay } from "swiper";
+import { FreeMode, Autoplay } from "swiper";
 
 const SwiperSlider = ({categories}) => {
    

@@ -1,8 +1,7 @@
 import React from 'react';
-import { FiHeadphones, FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight } from 'react-icons/fi';
 import SwiperSlider from './SwiperSlider';
-import {
-    Bike, Female, Ipad, Laptop, Men, Bottle, TV, Mobile} from '../../exporter'
+import { Bike, Female, Ipad, Laptop, Men, Bottle, TV, Mobile} from '../../exporter'
 
 const Categories = () => {
     const categories = [
