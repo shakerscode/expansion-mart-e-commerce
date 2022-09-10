@@ -96,6 +96,12 @@ body {
 .coupon{
   background-color: rgba(4, 137, 117, 0.632);
 }
+.filter-sec{
+  height: fit-content;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
 
 @media screen and (max-width: 650px) {
 
@@ -107,4 +113,18 @@ body {
   .ads-banner {
     height: 220px;
   }  
+  .filter-menu-hide{
+    left: -200px;
+  }
+  .filter-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #ffff; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 100%;
+    width: 90%;
+  }
 }

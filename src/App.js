@@ -3,7 +3,7 @@ import { Footer, Header, Home, Shop } from "./Components/exporter";
 
 function App() {
   return (
-    <div className="">
+    <div className='relative'>
       <Header />
       <Routes>
         <Route path="/"element={<Home/>}></Route> 
