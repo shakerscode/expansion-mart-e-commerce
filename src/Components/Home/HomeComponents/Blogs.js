@@ -49,7 +49,7 @@ const Blogs = () => {
                     },
                     1024: {
                         width: 1024,
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                     },
                 }}
                 slidesPerView={1}

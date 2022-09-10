@@ -1,11 +1,15 @@
-import { Footer, Header, Home } from "./Components/exporter";
+import { Route, Routes } from "react-router-dom";
+import { Footer, Header, Home, Shop } from "./Components/exporter";
 
 function App() {
   return (
     <div className="">
-      <Header/>
-      <Home/>
-      <Footer/>
+      <Header />
+      <Routes>
+        <Route path="/"element={<Home/>}></Route> 
+        <Route path="/shop"element={<Shop/>}></Route> 
+      </Routes>
+      <Footer />
     </div>
   );
 }

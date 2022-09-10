@@ -6,6 +6,7 @@ import { IoCloseCircleOutline  } from 'react-icons/io5'
 import {  IoMdArrowDropdown, IoMdArrowDropup } from 'react-icons/io'
 import { BsJustifyLeft, BsSearch } from 'react-icons/bs'
 import CatList from '../Re-UseableComp/CatList';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [show, setShow] = useState(false)
@@ -13,7 +14,7 @@ const Header = () => {
     const [showUser, setShowUser] = useState(false)
     const menus = [
         { m: 'Home', link: '/' },
-        { m: 'Product', link: '/' },
+        { m: 'Shop', link: '/shop' },
         { m: 'Blog', link: '/' },
         { m: 'Contact', link: '/' },
         { m: 'About', link: '/' },
@@ -104,7 +105,7 @@ const Header = () => {
                             <li
                                 key={i}
                                 // onClick={() => navigate(`${menu.link}`)}
-                                className='text-lg cursor-pointer hover:text-secondary transition-all ease-in duration-150 text-[20px]'>{menu?.m}</li>)
+                                className='text-lg cursor-pointer hover:text-secondary transition-all ease-in duration-150 text-[20px]'><Link to={menu?.link}>{menu?.m}</Link></li>)
                     }
                 </ul>
             </div>  
