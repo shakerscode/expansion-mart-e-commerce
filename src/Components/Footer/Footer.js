@@ -72,9 +72,9 @@ const Footer = () => {
                 <div>
                     <h1 className='md:text-4xl text-2xl font-bold text-primary'>Expansion<span className='text-secondary'>Mart</span></h1>
                     <p className='py-5'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form.</p>
-                    <button className='flex items-center gap-1 hover:text-primary transition-all duration-500 ease-in-out'>
+                    <button className='flex justify-center items-center gap-1 hover:text-primary transition-all duration-500 ease-in-out'>
                         <AiOutlineHome />
-                        <p className='text-sm'>1418 Riverwood Drive, CA 96052, US</p>
+                        <p className='text-[13px]'>1418 Riverwood Drive, CA 96052, US</p>
                     </button>
                     <button className='flex items-center gap-1 hover:text-primary transition-all duration-500 ease-in-out'>
                         <AiOutlineMail />

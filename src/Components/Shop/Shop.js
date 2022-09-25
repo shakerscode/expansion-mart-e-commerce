@@ -5,6 +5,9 @@ const Shop = () => {
     return (
         <div className='md:px-14 px-4'>
             <ShopBanner/>
+            <div>
+                
+            </div>
             <MainShop/>
         </div>
     );

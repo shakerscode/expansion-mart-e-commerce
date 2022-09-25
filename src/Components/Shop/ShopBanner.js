@@ -1,7 +1,7 @@
 import React from 'react';
 import shopping from '../../assets/Banner/banner-5.png' 
 
-const ShopBanner = () => {
+const ShopBanner = () => { 
     return (
         <div className='shop-banner my-10 relative rounded-lg'>
             <h1 className='md:text-3xl text-lg flex justify-between items-center absolute font-bold left-3 top-3 text-white px-5 py-1 bg-primary md:py-2 md:px-3 rounded-full'>Shop <div className='flex justify-center items-center'></div></h1>
