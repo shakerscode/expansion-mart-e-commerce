@@ -5,7 +5,9 @@ export {default as Shop} from './Shop/Shop';
 export {default as Blog} from './Blog/Blog';
 
 
+export {default as  BlogMain} from './Blog/BlogMain';
 export {default as  Banner} from './Re-UseableComp/Banner';
+export {default as  BlogTop} from './Blog/BlogTop';
 export {default as MainShop} from './Shop/MainShop';
 export {default as ShopProducts} from './Shop/ShopProducts';
 export {default as FilterData} from './Shop/FilterData';

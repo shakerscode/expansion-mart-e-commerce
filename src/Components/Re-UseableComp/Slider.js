@@ -1,8 +1,6 @@
  
 import React from "react";
-import heroOne from '../../assets/Slider/hero-1.png'
-import heroTwo from '../../assets/Slider/hero-2.jpg'
-import heroThree from '../../assets/Slider/hero-3.jpg'
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,13 +12,9 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination, Autoplay } from "swiper";
  
-const Slider = () => {
+const Slider = ({slider}) => {
 
-    const slider = [
-        {tittle: 'Get Amazing Fashion Products', subTittle: 'Choose the best outfit for yourself.', offer:'20%', image: heroTwo},
-        {tittle: 'Feel the sports thrill like real', subTittle: 'Watch world cup football in super LED Tv.', offer:'35%', image: heroThree},
-        {tittle: 'get YOUR DAILY NEEDS', subTittle: 'Choose healthy foods for you.', offer:'25%', image: heroOne},
-    ]
+   
     return (
         <>
       <Swiper
