@@ -2,7 +2,7 @@ export {default as Header} from './Header/Header';
 export {default as Home} from './Home/Home';
 export {default as Footer} from './Footer/Footer';
 export {default as Shop} from './Shop/Shop';
-export {default as Blog} from './Blog/Blogs';
+export {default as Blog} from './Blog/Blog';
 
 
 export {default as  Banner} from './Re-UseableComp/Banner';

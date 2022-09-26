@@ -92,6 +92,16 @@ body {
   background-position: center;
   background-size: cover;
   height: 150px;
+  border-radius: 10px;
+}
+.blog-banner {
+  background-image: url('./assets/Banner/banner-7.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-radius: 10px;
+
 }
 .coupon{
   background-color: rgba(4, 137, 117, 0.632);
@@ -101,7 +111,7 @@ body {
   padding: 5px;
   position: sticky;
   top: 0;
-}
+} 
 
 @media screen and (max-width: 650px) {
 

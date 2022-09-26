@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Footer, Header, Home, Shop } from "./Components/exporter";
+import { Blog, Footer, Header, Home, Shop } from "./Components/exporter";
 
 function App() {
   return (

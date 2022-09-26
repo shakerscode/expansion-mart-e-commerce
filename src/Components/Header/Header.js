@@ -15,7 +15,7 @@ const Header = () => {
     const menus = [
         { m: 'Home', link: '/' },
         { m: 'Shop', link: '/shop' },
-        { m: 'Blog', link: '/' },
+        { m: 'Blog', link: '/blog' },
         { m: 'Contact', link: '/' },
         { m: 'About', link: '/' },
     ]
