@@ -3,7 +3,7 @@ import blogOne from '../../assets/Blogs/blog-1.jpg'
 import blogTwo from '../../assets/Blogs/blog-2.jpg'
 import blogThree from '../../assets/Blogs/blog-3.jpg'
 import blogFour from '../../assets/Blogs/blog-4.jpg'
-import { Slider } from '../exporter';
+import { Slider, ReadMoreBtn } from '../exporter';
 
 const BlogTop = () => {
     const sliderInfo = [
@@ -24,14 +24,14 @@ const BlogTop = () => {
                         <div className=' absolute bottom-5 px-5 py-3 bg-bgLightBlack'>
                             <h1 className='text-2xl font-semibold text-white'>Eat What Ever you want</h1>
                         </div>
-                        <button className='px-4 py-2 bg-primary absolute text-white top-0 font-semibold right-0'>Read More </button>
+                        <ReadMoreBtn>Read More</ReadMoreBtn>
                     </div>
                     <div className='relative cursor-pointer'>
                         <img src={blogThree} alt="" className='w-full   rounded-lg ' />
                         <div className=' absolute bottom-5 px-5 py-3 bg-bgLightBlack'>
                             <h1 className='text-2xl font-semibold text-white'>Eat What Ever you want</h1>
                         </div>
-                        <button className='px-4 py-2 bg-primary absolute text-white top-0 font-semibold right-0'>Read More </button>
+                        <ReadMoreBtn>Read More</ReadMoreBtn>
                     </div>
                 </div>
             </div>
