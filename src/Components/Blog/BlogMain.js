@@ -1,10 +1,14 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import { BlogPostBox, NewsLetter } from '../exporter';
+import { BlogPostBox, NewsLetter, Ads } from '../exporter';
 import Author from '../../assets/AboutMe/shaker-ahamed.jpg'
 import { BsFacebook, BsInstagram } from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { FaYoutube } from 'react-icons/fa';
+import squireAdsOne from '../../assets/Ads/squireAds-1.png'
+import squireAdsTwo from '../../assets/Ads/squireAds-2.png'
+import bannerAdsThree from '../../assets/Ads/bannerAds-3.png'
+
 
 const BlogMain = () => {
     const [blogs, setBlogs] = useState([])
@@ -17,13 +21,13 @@ const BlogMain = () => {
 
     return (
         <main className='my-5'>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                 <div className='col-span-2'>
                     <h1 className='text-3xl font-bold text-primary border-b pb-3'>Latest Blogs</h1>
                     {
                         blogs?.map((blog, i) => <BlogPostBox key={i} blog={blog} />)
                     }
-                    <div className='flex justify-center items-center gap-3'>
+                    <div className='flex flex-wrap justify-center items-center gap-3'>
                         <button className='pagination-btn'>Previous</button>
                         <span className='pagination-btn'>1</span>
                         <span className='pagination-btn'>2</span>
@@ -36,7 +40,7 @@ const BlogMain = () => {
                         <button className='pagination-btn'>Next</button>
                     </div>
                 </div>
-                <aside className='gap-3 sidebar'>
+                <aside className='gap-3 making-sticky'>
                     <div>
                         <h1 className='text-2xl bg-secondary text-white font-semibold p-2 rounded-lg'>Trending</h1>
                         <div>
@@ -55,6 +59,10 @@ const BlogMain = () => {
                                 )
                             }
                         </div>
+                    </div>
+                    <div>
+                    <h1 className='text-2xl bg-secondary text-white font-semibold p-2 rounded-lg my-2'>Advertise With Us</h1>
+                    <Ads url={squireAdsOne}/>
                     </div>
                     <div>
                         <h1 className='text-2xl bg-secondary text-white font-semibold p-2 rounded-lg'>About Me</h1>
@@ -80,8 +88,13 @@ const BlogMain = () => {
                             </div>
                         </div>
                     </div>
+                    <div>
+                    <h1 className='text-2xl bg-secondary text-white font-semibold p-2 rounded-lg my-2'>Advertise With Us</h1>
+                    <Ads url={squireAdsTwo}/>
+                    </div>
                 </aside>
             </div>
+            <Ads url={bannerAdsThree}/>
             <NewsLetter />
         </main>
     );

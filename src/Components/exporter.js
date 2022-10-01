@@ -5,6 +5,7 @@ export {default as Shop} from './Shop/Shop';
 export {default as Blog} from './Blog/Blog';
 
 
+export {default as  Ads} from './Re-UseableComp/Ads';
 export {default as  BlogPostBox} from './Blog/BlogPostBox';
 export {default as  ReadMoreBtn} from './Re-UseableComp/ReadMoreBtn';
 export {default as  BlogMain} from './Blog/BlogMain';

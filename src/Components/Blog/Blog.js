@@ -1,6 +1,8 @@
 import React from 'react';
-import { Banner, BlogTop, Blogs, BlogMain } from '../exporter';
+import { Banner, BlogTop, Blogs, BlogMain, Ads } from '../exporter';
 import blog from '../../assets/Banner/banner-6.png' 
+import bannerAdsOne from '../../assets/Ads/bannerAds-1.png'
+import bannerAdsTwo from '../../assets/Ads/bannerAds-2.png'
 
 const Blog = () => {
     const blogs = [
@@ -25,7 +27,9 @@ const Blog = () => {
             sideImg={blog}
             />
             <BlogTop/>
+            <Ads url={bannerAdsTwo}/>
             <Blogs blogs={blogs}/>
+            <Ads url={bannerAdsOne}/>
             <BlogMain/>
             
         </section>

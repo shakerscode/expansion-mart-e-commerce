@@ -108,7 +108,7 @@ body {
 .coupon{
   background-color: rgba(4, 137, 117, 0.632);
 }
-.filter-sec{
+.making-sticky{
   height: fit-content;
   padding: 5px;
   position: sticky;
@@ -168,5 +168,8 @@ body {
     padding-right: 10px; 
     height: 100%;
     width: 90%;
+  }
+  .blog-img{
+    width: 100%;
   }
 }

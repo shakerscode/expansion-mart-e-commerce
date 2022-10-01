@@ -14,11 +14,11 @@ const BlogTop = () => {
     ]
     return (
         <main className='my-5'>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid md:grid-cols-3 grid-cols-2 gap-4'>
                 <div className='col-span-2 '>
                     <Slider slider={sliderInfo} />
                 </div>
-                <div className='grid grid-rows-2 gap-3  '>
+                <div className='grid md:grid-rows-2 col-span-2 md:col-auto gap-3'>
                     <div className='relative cursor-pointer'>
                         <img src={blogTwo} alt="" className='w-full   rounded-lg ' />
                         <div className=' absolute bottom-5 px-5 py-3 bg-bgLightBlack'>
